@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(#227C91, #185967);
+    color:white;
+}
+.main_header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.active{
+    color:orangered;
+}
+.bar a:hover{
+    color:orangered
+}
+.title{
+    padding: .5rem;
+    margin-top: .5rem;
+    border-radius: 50%;
+    border-right: 3px solid orangered;
+}
+.container{
+    text-align: center;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.intro{
+    flex-grow: 1;
+}
+
+span{
+    color:orangered
+}
+
+.about h1{
+    margin-top: 4rem;
+}
+.name{
+    text-align: left;
+    left: 15rem;
+    position: relative;
+}
+.intro{
+    width:68%;
+    height: 200px;
+    background-color:#344250;
+    margin-top:0rem;
+    padding: 3rem;
+    
+    
+}
+
+
+.learner{
+    margin-top: 20rem;
+    margin-right: 200px;
+}
+h4{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image_of_me{
+    width:600px;
+    height: 600px;
+    float: right;
+    opacity: 0.5;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.title2{
+    margin: auto;
+    width:60px;
+    border-radius: 50%;
+    border-right: 3px solid orangered;
+}
+.image2{
+    width: 100%;
+    opacity: 0.3;
+    position: relative;
+    
+}
+
+.skills{
+    margin-top: -50px;
+    
+}
+.skill_list{
+    margin-top:-800px;
+    position: absolute;
+    right:50%;
+    
+}
+
+.gallery{
+    
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top:-600px;
+    margin-left: 5rem;
+   
+}
+.gallery a {
+    
+    width:25%;
+    margin: 1%;
+    height:10rem;
+    
+    
+    
+}
+.gallery img {
+    width:100%;
+    height:100%;
+    
+    
+}
+.languages:hover {
+    transform: rotate(25deg);
+}
+.project{
+    width:100%;
+    height: 600px;
+    background-color:  #185967;
+    margin-top:50px;
+    padding: 15px;
+    
+    
+}
+.my_projects{
+    width:48%;
+    position: relative;
+    overflow: hidden;
+}
+.photo-overlay{
+    background-color: teal;
+    position: absolute;
+    height: 200px;
+    margin-top:-225px;
+    left: 49px;
+    display:flex;
+    flex-direction:column;
+    width:70%;
+    height:225px;
+    
+}
+.photo-overlay h3{
+    margin-top: 3rem;
+}
+.project_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo2 img{
+    height:200px;
+    margin-top:1.5rem;
+}
+.photo3 img{
+    height:200px;
+    margin-top:2rem;
+}.photo4 img{
+    height:200px;
+    margin-top:2rem;
+}
+/* SLIDE EFFECTS */
+.my_projects .photo-overlay,
+.photo img{
+    transition: transform .3s ease-out;
+}
+
+.my_projects .photo-overlay{
+    transform: translateX(-120%);
+}
+.my_projects:hover .photo-overlay{
+    transform: translateX(0);
+}
+.main_footer{
+    display: flex;
+    width: 100%;
+    height:100px;
+    background-color: teal;
+    
+    
+}
+.main_footer p{
+    margin: auto;
+}
+
+
+
